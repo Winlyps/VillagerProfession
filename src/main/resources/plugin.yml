@@ -1,0 +1,14 @@
+name: VillagerProfession
+version: '1.0.0'
+main: winlyps.villagerProfession.VillagerProfession
+api-version: '1.20'
+authors: [ Winlyps ]
+commands:
+  villager:
+    description: Summons a villager with a specific profession
+    usage: /villager <profession>
+    permission: villagerprofession.summon
+permissions:
+  villagerprofession.summon:
+    description: Allows players to summon villagers with specific professions
+    default: op
